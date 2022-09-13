@@ -28,7 +28,7 @@ body {
 /* header */
 
 header {  
-  background-color: #3161E0;
+  background-color: #245EE8;
   height: 80px;
   color: white;
 }
@@ -75,15 +75,16 @@ header .button a {
 } 
 
 header .button a:hover {
- color: #3161E0;
+ color: #245EE8;
 }
 
 /* jumbotron */
 
 .jumbotron {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
   background-color: #3161E0;
   height: 550px;
-  
   text-align: center;
 }
 
