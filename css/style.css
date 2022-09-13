@@ -76,7 +76,13 @@ header .button {
   width: 70px;
   height: 40px;
   background-color: #FFFFFF;
+  transition-duration: 0.5s;
 } 
+
+header .button:hover {
+  box-shadow: 1px 3px 4px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
 
 header .button a {
   text-decoration: none;
@@ -122,14 +128,28 @@ header .button a:hover {
   background-color: #FFFFFF;
   margin-right: 20px;
   line-height: 53px;
+  transition-duration: 0.5s;
 }
+.jumbotron .button.right:hover {
+  box-shadow: 1px 3px 4px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
 
 .jumbotron .button.left {
   width: 300px;
   height: 55px;
   background-color: black;
   line-height: 53px;
+  transition-duration: 0.5s;
 }
+
+.jumbotron .button.left:hover {
+  box-shadow: 1px 3px 4px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.736);
+  cursor: pointer;
+}
+
 
 .jumbotron .button.right a {
   color: #373B3F;
@@ -221,7 +241,14 @@ section.section-bottom .container {
   height: 60px;
   background-color: #5964F1;
   line-height: 58px;
+  transition-duration: 0.5s;
 } 
+
+.cta .button:hover {
+  box-shadow: 1px 3px 4px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color:#6e81c7ce;
+}
 
 .cta .button a {
   text-decoration: none;
@@ -308,15 +335,19 @@ footer .footer-bottom.container {
 footer .button {
   width: 70px;
   height: 40px;
-  background-color: #FFFFFF;
+  background-color:#7288DB;
+  transition-duration: 0.5s;
 } 
+
+footer .button:hover {
+  box-shadow: 1px 3px 4px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color:#677eceda;
+}
+
 
 footer .button a {
   font-size: 0.8rem;
   text-decoration: none;
-  color: #7288DB;
+  color: #FFFFFF;
 } 
-
-footer .button a:hover {
- color: #373B3F;
-}
