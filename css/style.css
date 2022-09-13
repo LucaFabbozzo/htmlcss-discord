@@ -25,6 +25,12 @@ body {
   margin: 0 auto;
 }
 
+.button {
+  border-radius: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
 /* header */
 
 header {  
@@ -64,10 +70,7 @@ header .button {
   width: 70px;
   height: 40px;
   background-color: #FFFFFF;
-  border-radius: 20px;
-  text-align: center;
-  line-height: 40px;
-}
+} 
 
 header .button a {
   text-decoration: none;
