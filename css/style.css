@@ -34,6 +34,9 @@ body {
   display: inline-block;
 }
 
+.logo {
+  cursor: pointer;
+}
 
 
 /* header */
@@ -185,7 +188,6 @@ main section .container {
 .bg-grey {
   background-color: #F6F6F6;
 }
-
 
 main .image {
   max-width: 625px;
