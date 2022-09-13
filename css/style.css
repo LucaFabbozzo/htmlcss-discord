@@ -149,33 +149,36 @@ header .button a:hover {
 main section .container {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 155px;
+  padding-top: 160px;
+  padding-bottom: 160px;
   min-height: 500px;
 }
 
 
 .bg-grey {
-  background-color: #c0bdbd;
+  background-color: #F6F6F6;
 }
 
-/* toglere altezza */
+
 main .image {
-  width: 620px;
-  height: 420px;
+  width: 625px;
   background-color: #282841;
   color: white;
 }
 
-/* togliere altezza */
+
 main .text {
   width: 370px;
-  height: 508;
 }
 
 main .text h3 {
   font-size: 2.4rem;
+  padding-bottom: 20px;
 }
 
+main text p {
+  line-height: 25px;
+} 
 
 .box-text h2 {
   font-size: 2.6rem;
@@ -183,9 +186,7 @@ main .text h3 {
 }
 
 
-.box-text p {
-padding-bottom: 50px;
-} 
+
 
 section.section-bottom .container {
   flex-direction: column;
