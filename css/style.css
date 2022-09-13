@@ -1,0 +1,240 @@
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility */
+
+.debug {
+  border: 1px solid red;
+  background-color: rgba(122, 170, 154, 0.792);
+}
+
+/* general */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* header */
+
+header {  
+  background-color: #3161E0;
+  height: 80px;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+
+header .menu ul {
+  display: flex;
+}
+
+header .menu ul li {
+  padding: 0 20px;
+  list-style: none;
+}
+
+header .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header .menu ul li a:hover {
+  text-decoration: underline;
+}
+
+header .button {
+  width: 60px;
+  height: 50px;
+  color: black;
+  background-color: #207993;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-color: #3161E0;
+  height: 550px;
+  
+  text-align: center;
+}
+
+.jumbotron .content {
+   max-width: 800px;
+   padding-top: 120px;
+   margin: 0 auto;
+}
+
+.jumbotron .content h1 {
+  font-size: 2.6rem;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.jumbotron .content p {
+  padding-bottom: 20px;
+}
+
+
+.jumbotron .content button {
+  border: none;
+  width: 120px;
+  height: 50px;
+  color: black;
+}
+
+
+/* main */
+
+main section .container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 155px;
+  min-height: 500px;
+}
+
+
+.bg-grey {
+  background-color: #c0bdbd;
+}
+
+/* toglere altezza */
+main .image {
+  width: 620px;
+  height: 420px;
+  background-color: #282841;
+  color: white;
+}
+
+/* togliere altezza */
+main .text {
+  width: 370px;
+  height: 508;
+}
+
+main .text h3 {
+  font-size: 2.4rem;
+}
+
+
+.box-text h2 {
+  font-size: 2.6rem;
+  padding-bottom: 50px;
+}
+
+
+.box-text p {
+padding-bottom: 50px;
+} 
+
+section.section-bottom .container {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ .image-jumbo {
+  width: 80%;
+  height: 620px;
+  background-color: #282841;
+  margin: 0 auto;
+}
+
+.cta h4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.cta button {
+border: none;
+width: 120px;
+height: 50px;
+color: black;
+} 
+
+
+/* footer */
+
+footer {
+  height: 650px;
+  background-color: #62676be6;
+  color: white;
+}
+
+
+footer .footer-top.container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+/* togliere altezza */
+footer .col-social {
+  width: 245px;
+  background-color: #207993;
+}
+
+footer .col-menu {
+  width: 100px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+footer .col-social h2 {
+  padding-bottom: 10px;
+}
+
+footer .col-social .icons {
+  padding-top: 10px;
+  display: flex;
+}
+
+footer .col-social .icons span {
+  margin-right: 10px;
+  font-size: 0.8rem;
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+footer .footer-bottom.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  border-top: 2px solid white;
+}
+
+footer button {
+  border: none;
+  width: 120px;
+  height: 50px;
+  color: black;
+}
