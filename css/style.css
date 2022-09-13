@@ -176,49 +176,61 @@ main .text h3 {
   padding-bottom: 20px;
 }
 
-main text p {
+main p {
   line-height: 25px;
 } 
+
+.box-text {
+  max-width: 970px;
+}
+
+.box-text p {
+  padding-bottom: 20px;
+}
+
 
 .box-text h2 {
   font-size: 2.6rem;
   padding-bottom: 50px;
 }
 
-
-
-
 section.section-bottom .container {
+  text-align: center;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
- .image-jumbo {
+ .image-big {
   width: 80%;
-  height: 620px;
   background-color: #282841;
   margin: 0 auto;
 }
 
 .cta h4 {
+  font-size: 1.5rem;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.cta button {
-border: none;
-width: 120px;
-height: 50px;
-color: black;
+.cta .button {
+  width: 230px;
+  height: 60px;
+  background-color: #5964F1;
+  line-height: 58px;
 } 
+
+.cta .button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 
 
 /* footer */
 
 footer {
   height: 650px;
-  background-color: #62676be6;
+  background-color: #222729;
   color: white;
 }
 
@@ -230,16 +242,18 @@ footer .footer-top.container {
   padding-bottom: 40px;
 }
 
-/* togliere altezza */
 footer .col-social {
   width: 245px;
-  background-color: #207993;
+  color: #7288DB;
 }
 
 footer .col-menu {
   width: 100px;
-  background-color: white;
-  border: 1px solid black;
+  color:#7288DB;
+}
+
+footer .col-menu span {
+  line-height: 25px;
 }
 
 footer .col-social h2 {
@@ -262,6 +276,9 @@ footer nav ul {
 
 footer nav ul li a {
   text-decoration: none;
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  line-height: 25px;
 }
 
 footer nav ul li a:hover {
@@ -269,17 +286,25 @@ footer nav ul li a:hover {
 }
 
 
-
 footer .footer-bottom.container {
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
-  border-top: 2px solid white;
+  border-top: 1px solid #5964F1;
 }
 
-footer button {
-  border: none;
-  width: 120px;
-  height: 50px;
-  color: black;
+footer .button {
+  width: 70px;
+  height: 40px;
+  background-color: #FFFFFF;
+} 
+
+footer .button a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #7288DB;
+} 
+
+footer .button a:hover {
+ color: #373B3F;
 }
