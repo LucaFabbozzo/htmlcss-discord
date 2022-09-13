@@ -53,6 +53,7 @@ header .menu ul li {
 header .menu ul li a {
   text-decoration: none;
   color: white;
+  font-size: 0.9rem;
 }
 
 header .menu ul li a:hover {
@@ -60,10 +61,21 @@ header .menu ul li a:hover {
 }
 
 header .button {
-  width: 60px;
-  height: 50px;
-  color: black;
-  background-color: #207993;
+  width: 70px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+header .button a {
+  text-decoration: none;
+  color: #373B3F;
+} 
+
+header .button a:hover {
+ color: #3161E0;
 }
 
 /* jumbotron */
