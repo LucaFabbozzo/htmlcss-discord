@@ -29,6 +29,8 @@ body {
   border-radius: 20px;
   text-align: center;
   line-height: 40px;
+  background-color: #FFFFFF;
+  display: inline-block;
 }
 
 /* header */
@@ -86,15 +88,16 @@ header .button a:hover {
 .jumbotron {
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  background-color: #3161E0;
+  background-position: center;
   height: 550px;
   text-align: center;
 }
 
 .jumbotron .content {
-   max-width: 800px;
-   padding-top: 120px;
+   max-width: 600px;
+   padding-top: 110px;
    margin: 0 auto;
+   color: #FFFFFF;
 }
 
 .jumbotron .content h1 {
@@ -105,15 +108,40 @@ header .button a:hover {
 
 .jumbotron .content p {
   padding-bottom: 20px;
+  line-height: 25px;
 }
 
 
-.jumbotron .content button {
-  border: none;
-  width: 120px;
-  height: 50px;
-  color: black;
+.jumbotron .button.right {
+  width: 225px;
+  height: 55px;
+  background-color: #FFFFFF;
+  margin-right: 20px;
+  line-height: 53px;
 }
+
+.jumbotron .button.left {
+  width: 300px;
+  height: 55px;
+  background-color: black;
+  line-height: 53px;
+}
+
+
+.jumbotron .button.right a {
+  color: #373B3F;
+  text-decoration: none;
+}
+
+.jumbotron .button.left a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.jumbotron .button.right a:hover {
+  color:#245EE8;
+}
+
 
 
 /* main */
