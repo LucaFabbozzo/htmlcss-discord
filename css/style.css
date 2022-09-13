@@ -145,13 +145,17 @@ header .button a:hover {
   color:#245EE8;
 }
 
+.fa-solid, .fa-arrow-down-long {
+  margin: 5px;
+}
+
 
 
 /* main */
 
 main section .container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-top: 160px;
   padding-bottom: 160px;
   min-height: 500px;
@@ -168,7 +172,7 @@ main .image {
 }
 
 main .text {
-  max-width: 370px;
+  max-width: 300px;
 }
 
 main .text h3 {
@@ -181,7 +185,7 @@ main p {
 } 
 
 .box-text {
-  max-width: 970px;
+  max-width: 900px;
 }
 
 .box-text p {
@@ -201,15 +205,14 @@ section.section-bottom .container {
   align-items: center;
 }
 
- .image-big {
-  width: 80%;
-  background-color: #282841;
+ .image-big img {
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .cta h4 {
   font-size: 1.5rem;
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 40px;
 }
 
@@ -237,7 +240,7 @@ footer {
 
 footer .footer-top.container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-top: 100px;
   padding-bottom: 40px;
 }
