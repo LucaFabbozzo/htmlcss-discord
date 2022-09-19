@@ -27,9 +27,9 @@ body {
 }
 
 .button {
-  border-radius: 20px;
+  border-radius: 25px;
   text-align: center;
-  line-height: 40px;
+  line-height: 39px;
   background-color: #FFFFFF;
   display: inline-block;
 }
@@ -90,10 +90,12 @@ header .button:hover {
 header .button a {
   text-decoration: none;
   color: #373B3F;
+  font-size: 0.9rem;
 } 
 
 header .button a:hover {
  color: #245EE8;
+
 }
 
 /* jumbotron */
@@ -107,19 +109,20 @@ header .button a:hover {
 }
 
 .jumbotron .content {
-   max-width: 600px;
+   max-width: 632px;
    padding-top: 110px;
    margin: 0 auto;
    color: #FFFFFF;
 }
 
 .jumbotron .content h1 {
-  font-size: 2.6rem;
+  font-size: 3.2rem;
   font-weight: bolder;
   padding-bottom: 20px;
 }
 
 .jumbotron .content p {
+  font-size: 1.1rem;
   padding-bottom: 20px;
   line-height: 25px;
 }
@@ -198,12 +201,13 @@ main .text {
 }
 
 main .text h3 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   padding-bottom: 20px;
 }
 
 main p {
   line-height: 25px;
+  font-size: 1.2rem;
 } 
 
 .box-text {
@@ -233,7 +237,7 @@ section.section-bottom .container {
 }
 
 .cta h4 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding-top: 10px;
   padding-bottom: 40px;
 }
@@ -318,7 +322,7 @@ footer nav ul {
 footer nav ul li a {
   text-decoration: none;
   color: #FFFFFF;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 25px;
 }
 
